@@ -112,7 +112,7 @@
 
 +(CGFloat)formDescriptorCellHeightForRowDescriptor:(XLFormRowDescriptor *)rowDescriptor {
   if (rowDescriptor.title == nil || [rowDescriptor.title isEqualToString:@""]) {
-    return 40;
+    return 44;
   } else {
     return 88;
   }
